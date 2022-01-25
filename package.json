@@ -1,0 +1,22 @@
+{
+  "name": "sql-codegen-website",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html --dist-dir build",
+    "start": "parcel src/index.html --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {},
+  "app": "build/index.html",
+  "targets": {
+    "app": {
+      "engines": {
+        "browsers": "Chrome 86"
+      }
+    }
+  }
+}
